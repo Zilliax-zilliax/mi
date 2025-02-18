@@ -1,0 +1,122 @@
+.jiadian-box {
+  width: 1226px;
+  height: 615px;
+  margin: 100px auto 0;
+  position: relative;
+}
+
+/* 标题栏样式 */
+.jiadian-box-header {
+  height: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jiadian-box-title {
+  font-size: 33px !important;
+  color: #333;
+  font-weight: 400 !important;
+}
+
+.jiadian-box-more {
+  color: #424242;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.jiadian-box-more:hover {
+  color: #ff6700;
+}
+
+/* 左侧大图样式 */
+.jiadian-box-left {
+  width: 234px;
+  height: 615px;
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.jiadian-box-left img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.jiadian-box-left img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 右侧平板卡片区域 */
+.jiadian-box-right {
+  width: 978px;
+  height: 615px;
+  float: left;
+}
+
+.jiadian-box-right > div {
+  width: 234px;
+  height: 300px;
+  background: #fff;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.jiadian-box-right > div img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 20px auto;
+  display: block;
+}
+
+/* 平板卡片内容样式 */
+[class*="-info"] {
+  text-align: center;
+  padding: 0 20px;
+}
+
+[class*="-title"] {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+[class*="-desc"] {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin-bottom: 10px;
+  height: 18px;
+  overflow: hidden;
+}
+
+[class*="-price"] {
+  color: #ff6700;
+  font-size: 14px;
+}
+
+.unit {
+  font-size: 12px;
+}
+
+.jiadian-box-right > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,13 @@
+.guodu-2 {
+  width: 1226px;
+  height: 120px;
+  margin: 40px auto;
+  position: relative;
+}
+
+.guodu-2 img {
+  width: 1226px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+}

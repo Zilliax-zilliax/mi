@@ -1,0 +1,126 @@
+.shouji-box {
+  width: 1226px;
+  height: 615px;
+  margin: 100px auto 0;
+  position: relative;
+}
+
+/* 标题栏样式 */
+.shouji-box-header {
+  height: 40px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shouji-box-title {
+  font-size: 33px !important;
+  color: #333;
+  font-weight: 400 !important;
+}
+
+.shouji-box-more {
+  color: #424242;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.shouji-box-more:hover {
+  color: #ff6700;
+}
+
+/* 左侧大图样式 */
+.shouji-box-left {
+  width: 234px;
+  height: 615px;
+  float: left;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.shouji-box-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.shouji-box-left:hover img {
+  transform: scale(1.03);
+}
+
+/* 右侧手机卡片区域 */
+.shouji-box-right {
+  width: 978px; /* 调整宽度以适应左侧图片 */
+  height: 615px;
+  float: left;
+}
+
+.shouji-box-right > div {
+  width: 234px;
+  height: 300px;
+  background: #fff;
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.shouji-box-right > div img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  margin: 20px auto;
+  display: block;
+}
+
+/* 手机卡片内容样式 */
+.phone-info {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.phone-name {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.phone-desc {
+  font-size: 12px;
+  color: #b0b0b0;
+  margin-bottom: 10px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.phone-price {
+  color: #ff6700;
+  font-size: 14px;
+}
+
+.phone-price .unit {
+  font-size: 12px;
+}
+
+.shouji-box-right > div:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 增加选择器特异性 */
+.shouji-box .shouji-box-header .shouji-box-title {
+  font-size: 33px;
+  color: #333;
+  font-weight: 400;
+}

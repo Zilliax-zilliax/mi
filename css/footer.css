@@ -1,0 +1,157 @@
+.footer {
+  padding: 40px 0;
+  background: #fff;
+  margin-top: 60px;
+}
+
+/* 服务部分 */
+.footer-service {
+  width: 1226px;
+  margin: 0 auto;
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.service-list a {
+  color: #616161;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s;
+}
+
+.service-list a:hover {
+  color: #ff6700;
+}
+
+.service-list i {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+/* 链接部分 */
+.footer-links {
+  width: 1226px;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links dl {
+  width: 160px;
+}
+
+.footer-links dt {
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #424242;
+}
+
+.footer-links dd {
+  margin: 10px 0;
+}
+
+.footer-links dd a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footer-links dd a:hover {
+  color: #ff6700;
+}
+
+/* 联系部分 */
+.footer-contact {
+  width: 250px;
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+}
+
+.footer-contact .phone {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+}
+
+.footer-contact .time {
+  margin-bottom: 16px;
+  font-size: 12px;
+  color: #757575;
+}
+
+.btn-contact {
+  display: inline-block;
+  width: 118px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #ff6700;
+  background: #fff;
+  color: #ff6700;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.3s;
+}
+
+.btn-contact:hover {
+  background: #ff6700;
+  color: #fff;
+}
+
+/* 底部信息 */
+.footer-info {
+  width: 1226px;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: flex;
+}
+
+.footer-logo {
+  width: 56px;
+  margin-right: 10px;
+}
+
+.footer-logo img {
+  width: 100%;
+  height: auto;
+}
+
+.info-text {
+  flex: 1;
+}
+
+.sites {
+  margin-bottom: 10px;
+}
+
+.sites a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.sites span {
+  margin: 0 3px;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+
+.sites a:hover {
+  color: #ff6700;
+}
+
+.copyright {
+  color: #b0b0b0;
+  font-size: 12px;
+}

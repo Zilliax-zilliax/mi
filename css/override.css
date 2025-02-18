@@ -1,0 +1,9 @@
+.shouji-box-title,
+.pingban-box-title,
+.jiadian-box-title,
+.shdianqi-box-title,
+.cfdianqi-box-title,
+.znjj-box-title {
+  font-size: 33px !important;
+  font-weight: 400 !important;
+}
